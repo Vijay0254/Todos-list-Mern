@@ -4,7 +4,7 @@ import axios from "axios"
 const TodoItem = ({ todos, settodos, editId, seteditId, apicall }) => {
     const [editTitle,seteditTitle] = useState("")
     const [editDescription,seteditDescription] = useState("")
-    const API_URL = "http://localhost:3500/todos"
+    const API_URL = "https://todos-list-mern.onrender.com/todos"
 
     function handleEdit(element){
         seteditId(element._id)

@@ -9,7 +9,7 @@ const Todo = () => {
     const [message,setmessage] = useState("")
     const [error,seterror] = useState("")
     const [editId,seteditId] = useState(-1)
-    const API_URL = "http://localhost:3500/todos"
+    const API_URL = "https://todos-list-mern.onrender.com/todos"
 
     async function handleSubmit() {
         seterror("")
